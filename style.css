@@ -1,0 +1,204 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+
+}
+
+
+
+/* header text start */
+.section1{
+    width: 100%;
+    height:100vh;
+}
+.uperText{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    clear: both;
+    padding: 2rem 0rem;
+}
+
+.uperText h1 {
+    width: fit-content;
+    font-size:3rem;
+    margin: 0;
+    background: linear-gradient(to right, #1186d4, #ab06f1, #e72a16);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.uperText h2 {
+    font-size: 2rem;
+    margin: 8px;
+}
+.uperText h4 {
+    font-size: 1rem;
+    color: #797979;
+    margin: 0;
+}
+
+/* header text end */
+
+
+/* Phone video animaton start */
+.livePhone img{
+    scale: 0.9;
+}
+/* #livePhoneScrollTrigger {
+    display: flex;
+    justify-content: center;
+    scale: 1;
+    z-index: 10 !important;
+}
+.livePhone{
+    display: flex;
+}
+
+.livePhone {
+    width: 327px ;
+    height: 664px ;
+    position: relative ;
+    clip-path: inset(0 round 65px) ;
+    overflow: hidden !important;
+}
+
+
+.livePhone video {
+    position: absolute ;
+    z-index: -1 !important;
+    top: 50% ;
+    left: 50% ;
+    width: auto ;
+    height: auto ;
+    object-fit: cover ;
+    transform: translate(-50%, -50%) ;
+} */
+
+/* Phone video animaton end */
+
+/* slider backgroun text slider start */
+.backUperText {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+.uperText2 p{
+    width: 60vw;
+    opacity: 0.5;
+    font-size: clamp( 1rem, 1vw + 1rem, 2rem);
+    text-align: center;
+    background: linear-gradient(to right, #1186d4, #ab06f1, #e72a16);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+.uperText3 p{
+    width: 60vw;
+    opacity: 0.5;
+    font-size: clamp( 1rem, 1vw + 1rem, 2rem);
+    text-align: center;
+    background: linear-gradient(to right, #1186d4, #ab06f1, #e72a16);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+/* slider backgroun text slider end */
+
+/* Scroll Photos slider start */ 
+.section2 {
+        display: flex;
+        padding-inline-start: calc(50% - 80px);
+}
+  
+     
+#photos {
+    width: fit-content;  /*Adjust width based on content */    
+  }
+
+.photo {
+    display: flex;
+}
+
+.photo img{
+    width: 160px;
+    height: auto;
+}
+
+/* Scroll Photos slider end */ 
+
+
+
+/* Image bannder after slider Start */
+
+.grid-container {
+    width: 32vw;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center; 
+}
+
+
+.slideImg{
+    z-index: 2;
+}
+
+/* For small media */
+@media only screen and (max-width: 700px) {
+    .imgEf2 img{
+        width: 15rem;
+        transform: translateX(-50vw);
+        z-index: 1;
+    }
+    .imgEf2{
+        z-index: 1;
+    }
+    .imgEf3 img{
+        width: 25rem;
+        transform: translateX(-70vw);
+
+    }
+}
+
+
+/* For Big media */
+ @media only screen and (min-width: 800px) {
+    .imgEf2 img{
+        width: 25rem;
+        transform: translateX(8vw);
+    }
+    .imgEf2{
+        z-index: 1;
+    }
+    .imgEf3 img{
+        width: 50rem;
+    }
+  } 
+
+
+/* Image bannder after slider end */
+
+
+
+
+
+/* video link text animation start */
+.section3{
+    text-align: center;
+    opacity: 0;
+}
+
+.section3 img{
+    width: 20rem;
+    z-index: 0;
+    text-align: center;
+
+}
+
+.section3 a{
+    text-decoration: none;
+    font-size: 1.3rem;
+}
